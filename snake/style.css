@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+}
+.board {
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	position: relative;
+	background-color: #fc0;
+
+}
+section {
+	width: 300px;
+	margin: auto;
+}
+.food {
+	height: 15px;
+	width:15px;
+	border-radius: 15px;
+	background-color: #ef0;
+	position: absolute;
+	top: 72px;
+	right: 40px;
+	left: 20px;
+	bottom: 50px;
+	display: block;
+}
+.snake {
+	width: 15px;
+	height: 15px;
+	display: block;
+	position: absolute;
+	background-color: #000;
+	left: 0;
+	top: 0;
+}
+.snake-tail {
+	width: 15px;
+	height: 15px;
+	display: block;
+	position: absolute;
+	background-color: #000;
+}
